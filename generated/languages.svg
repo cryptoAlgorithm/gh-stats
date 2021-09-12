@@ -7,18 +7,18 @@ svg {
 }
 
 #background {
-  width: calc(100% - 10px);
-  height: calc(100% - 10px);
-  fill: white;
-  stroke: rgb(225, 228, 232);
+  width: 100%;
+  height: 100%;
+  fill: #22272e;
+  stroke: #444c56;
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
 }
 
 foreignObject {
-  width: calc(100% - 10px - 32px);
-  height: calc(100% - 10px - 24px);
+  width: calc(100% - 32px);
+  height: calc(100% - 24px);
 }
 
 h2 {
@@ -27,7 +27,7 @@ h2 {
   line-height: 24px;
   font-size: 16px;
   font-weight: 600;
-  color: rgb(36, 41, 46);
+  color: #cdd9e5;
   fill: rgb(36, 41, 46);
 }
 
@@ -87,11 +87,11 @@ div.ellipsis {
 .lang {
   font-weight: 600;
   margin-right: 4px;
-  color: rgb(36, 41, 46);
+  color: #cdd9e5;
 }
 
 .percent {
-  color: rgb(88, 96, 105)
+  color: #adbac7;
 }
 </style>
 <g>
